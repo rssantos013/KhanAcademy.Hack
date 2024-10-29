@@ -4,7 +4,7 @@
 
 
 ### Me Salva (Tampermonkey)
-[Codigo ⬆](https://darkmod3.github.io/CMSP-Plataformas-Hacks/)
+[Codigo ⬆](https://github.com/rssantos013/KhanAcademy.Hack/blob/main/mesalva.js)
 
 ### Khan Academy
 ```
