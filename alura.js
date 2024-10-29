@@ -18,7 +18,7 @@
             }
         });
 
-        setTimeout(() => nextLessonButton.click(), 4000);
+        setTimeout(() => nextLessonButton.click(), 0);
     } else {
     }
 })();
