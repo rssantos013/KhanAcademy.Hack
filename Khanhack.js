@@ -138,7 +138,7 @@ function setupMenu() {
     }
     function setupWatermark() {
         Object.assign(watermark.style, {
-            position: 'fixed', top: '0', left: '30%', width: '150px', height: '30px', backgroundColor: 'RGB(0,0,0,1)',
+            position: 'fixed', top: '0', left: '35%', width: '150px', height: '30px', backgroundColor: 'RGB(0,0,0,1)',
             color: 'white', fontSize: '15px', fontFamily: 'MuseoSans, sans-serif', display: 'flex', justifyContent: 'space-between', alignItems: 'center',
             cursor: 'default', userSelect: 'none', padding: '0 10px',  borderRadius: '10px', zIndex: '1001', transition: 'transform 0.3s ease'
         });
