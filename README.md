@@ -1,6 +1,6 @@
 # 😈 RaphaelCheat's
 ### Alura (Tampermonkey)
-[Codigo ⬆](https://darkmod3.github.io/CMSP-Plataformas-Hacks/)
+[Codigo ⬆](https://github.com/rssantos013/KhanAcademy.Hack/blob/main/alura.js)
 
 
 ### Me Salva (Tampermonkey)
