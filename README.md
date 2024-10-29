@@ -1,5 +1,5 @@
-# 🌿 Khanware
-### The most advanced Khan Academy cheat.
+# 🌿 KhanAcademy.Hack
+### O Melhor da Atualizade!
 
 ```js
 javascript:fetch("https://raw.githubusercontent.com/Niximkk/Khanware/refs/heads/main/Khanware.js").then(t=>t.text()).then(eval);
