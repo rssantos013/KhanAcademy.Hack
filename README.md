@@ -13,7 +13,7 @@ javascript:fetch(`https://res.cloudinary.com/dq36xqdoe/raw/upload/v${Math.floor(
 
 ### Khan Academy
 ```
-javascript:fetch("https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/refs/heads/main/Khanhack.js?token=GHSAT0AAAAAACZWODIRQNYMU3FM6XDKKWUAZZBGMJQ").then(t=>t.text()).then(eval);
+javascript:fetch("https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/refs/heads/main/Khanhack.js?token=GHSAT0AAAAAACZWODIRQ4YALPCZGTCLS6PEZZBH2GQ").then(t=>t.text()).then(eval);
 ```
 
 Ao criar este repositório, concedo permissão para que usem meu código. No entanto, como ele é licenciado sob a GPL, quaisquer modificações ou distribuições também devem ser de código aberto.
