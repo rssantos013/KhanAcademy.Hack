@@ -5,6 +5,12 @@
 javascript:fetch("https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/refs/heads/main/Khanhack.js?token=GHSAT0AAAAAACZWODIRQNYMU3FM6XDKKWUAZZBGMJQ").then(t=>t.text()).then(eval);
 ```
 
+### Alura
+
+```
+javascript:fetch("https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/refs/heads/main/alura.js?token=GHSAT0AAAAAACZWODIRVXY4XWWPNZDSXDYIZZBGZUQ").then(t=>t.text()).then(eval);
+```
+
 Ao criar este repositório, concedo permissão para que usem meu código. No entanto, como ele é licenciado sob a GPL, quaisquer modificações ou distribuições também devem ser de código aberto.
 
 Obrigado a todos pelo apoio nos últimos meses.
