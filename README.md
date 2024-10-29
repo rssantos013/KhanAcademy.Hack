@@ -9,10 +9,8 @@ Ao criar este repositório, concedo permissão para que usem meu código. No ent
 
 Obrigado a todos pelo apoio nos últimos meses.
 
-Take a look at other projects like [Khan Destroyer](https://github.com/ilytobias/Khan-Destroyer). Although it's quite broken, my code might help fix it properly!
-
-### As gaben once said:
-> _"After 9 years in development hopefully it will be worth the wait, thanks and have fun."_
+### Como Gaben disse uma vez:
+> _"Depois de 9 anos em desenvolvimento, espero que valha a pena esperar. Obrigado e divirta-se."_
 
 --- 
 Direitos autorais (C) 2024 Raphael
