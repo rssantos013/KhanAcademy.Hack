@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         Alura Destroyer
+// @namespace    https://cursos.alura.com.br/
+// @author       marcos10pc
+// @match        https://cursos.alura.com.br/course/*/task/*
+// @icon         https://i.imgur.com/gP1LZq9.png
+// @grant        none
+// ==/UserScript==
+
 (function() {
     'use strict';
 
@@ -18,7 +27,7 @@
             }
         });
 
-        setTimeout(() => nextLessonButton.click(), 0);
+        setTimeout(() => nextLessonButton.click(), 4000);
     } else {
     }
 })();
