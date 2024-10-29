@@ -1,10 +1,10 @@
 # 😈 RaphaelCheat's
 ### Alura (Tampermonkey)
-[Alura Atualizado](https://darkmod3.github.io/CMSP-Plataformas-Hacks/)
+[Codigo](https://darkmod3.github.io/CMSP-Plataformas-Hacks/)
 
 
 ### Me Salva (Tampermonkey)
-[Me Salva Atualizado](https://darkmod3.github.io/CMSP-Plataformas-Hacks/)
+[Codigo](https://darkmod3.github.io/CMSP-Plataformas-Hacks/)
 
 ### Khan Academy
 ```
