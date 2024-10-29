@@ -1,5 +1,5 @@
 # 😈 RaphaelCheat's
-### Alura
+### Alura (Tampermonkey)
 [Alura Atualizado](https://darkmod3.github.io/CMSP-Plataformas-Hacks/)
 
 
