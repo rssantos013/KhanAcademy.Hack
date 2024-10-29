@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Alura Destroyer
 // @namespace    https://cursos.alura.com.br/
-// @author       marcos10pc
+// @author       r.ssantos013
 // @match        https://cursos.alura.com.br/course/*/task/*
 // @icon         https://i.imgur.com/gP1LZq9.png
 // @grant        none
