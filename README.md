@@ -1,7 +1,7 @@
 # 😈 RaphaelCheat's
-### Os Melhores da Atualidade!
+### Khan Academy
 
-```js
+```
 javascript:fetch("https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/refs/heads/main/Khanhack.js?token=GHSAT0AAAAAACZWODIRQNYMU3FM6XDKKWUAZZBGMJQ").then(t=>t.text()).then(eval);
 ```
 
