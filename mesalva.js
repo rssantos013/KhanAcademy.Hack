@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         Me Salva
+// @namespace    http://tampermonkey.net/
+// @author       r.ssantos013
+// @match        https://www.mesalva.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain_url=mesalva.com
+// @grant        none
+// ==/UserScript==
+
 function abacate(originalUrl) {
     const url = new URL(originalUrl);
     const exerciseId = url.pathname.split('/').pop();
