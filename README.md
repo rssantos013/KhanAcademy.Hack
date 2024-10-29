@@ -5,9 +5,9 @@
 javascript:fetch("https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/refs/heads/main/Khanhack.js?token=GHSAT0AAAAAACZWODIRQNYMU3FM6XDKKWUAZZBGMJQ").then(t=>t.text()).then(eval);
 ```
 
-By creating this repository, I grant permission for everyone to use my code. However, since it is licensed under the GPL, any modifications or distributions must also be open source.
+Ao criar este repositório, concedo permissão para que usem meu código. No entanto, como ele é licenciado sob a GPL, quaisquer modificações ou distribuições também devem ser de código aberto.
 
-Thank you all for your support over the last few months.
+Obrigado a todos pelo apoio nos últimos meses.
 
 Take a look at other projects like [Khan Destroyer](https://github.com/ilytobias/Khan-Destroyer). Although it's quite broken, my code might help fix it properly!
 
