@@ -72,7 +72,7 @@ async function showSplashScreen() {
     splashScreen.style.cssText = "position:fixed;top:0;left:0;width:100%;height:100%;background-color:#000;display:flex;align-items:center;justify-content:center;z-index:9999;opacity:0;transition:opacity 0.5s ease;user-select:none;";
     
     const gifImage = document.createElement('img');
-    gifImage.src = 'https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/abd2484ad6a605a042a3fc4c23d5d5054b3ced2c/hack.gif';
+    gifImage.src = 'https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/refs/heads/main/HACK.gif';
     gifImage.style.maxWidth = '80%';  // Ajuste o tamanho conforme necessário
     gifImage.style.maxHeight = '80%'; // Ajuste o tamanho conforme necessário
     
