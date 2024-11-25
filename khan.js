@@ -64,13 +64,48 @@ const playAudio = url => { const audio = new Audio(url); audio.play(); };
 const checkCollision = (obj1, obj2) => !( obj1.right < obj2.left || obj1.left > obj2.right || obj1.bottom < obj2.top || obj1.top > obj2.bottom );
 const findAndClickByClass = className => { const element = document.querySelector(`.${className}`); if (element) { element.click(); sendToast(`⭕ Pressionando ${className}...`, 1000); } }
 
-function sendToast(text, duration=5000, gravity='bottom') { Toastify({ text: text, duration: duration, gravity: gravity, position: "center", stopOnFocus: true, style: { background: "#000000" } }).showToast(); };
+function sendToast(text, duration=5000, gravity='bottom') { 
+    Toastify({ text: text, duration: duration, gravity: gravity, position: "center", stopOnFocus: true, style: { background: "#000000" } }).showToast(); 
+};
 
-async function showSplashScreen() { splashScreen.style.cssText = "position:fixed;top:0;left:0;width:100%;height:100%;background-color:#000;display:flex;align-items:center;justify-content:center;z-index:9999;opacity:0;transition:opacity 0.5s ease;user-select:none;color:white;font-family:MuseoSans,sans-serif;font-size:30px;text-align:center;"; splashScreen.innerHTML = '<span style="color:white;">KHANACADEMY</span><span style="color:#FF0000;">.HACK</span>'; document.body.appendChild(splashScreen); setTimeout(() => splashScreen.style.opacity = '1', 10);};
-async function hideSplashScreen() { splashScreen.style.opacity = '2'; setTimeout(() => splashScreen.remove(), 5000); };
+async function showSplashScreen() {
+    splashScreen.style.cssText = "position:fixed;top:0;left:0;width:100%;height:100%;background-color:#000;display:flex;align-items:center;justify-content:center;z-index:9999;opacity:0;transition:opacity 0.5s ease;user-select:none;";
+    
+    const gifImage = document.createElement('img');
+    gifImage.src = 'https://raw.githubusercontent.com/rssantos013/KhanAcademy.Hack/abd2484ad6a605a042a3fc4c23d5d5054b3ced2c/hack.gif';
+    gifImage.style.maxWidth = '80%';  // Ajuste o tamanho conforme necessário
+    gifImage.style.maxHeight = '80%'; // Ajuste o tamanho conforme necessário
+    
+    splashScreen.appendChild(gifImage);
+    document.body.appendChild(splashScreen);
+    
+    setTimeout(() => splashScreen.style.opacity = '1', 10);
+};
 
-async function loadScript(url, label) { return fetch(url).then(response => response.text()).then(script => { loadedPlugins.push(label); eval(script); }); }
-async function loadCss(url) { return new Promise((resolve) => { const link = document.createElement('link'); link.rel = 'stylesheet'; link.type = 'text/css'; link.href = url; link.onload = () => resolve(); document.head.appendChild(link); }); }
+async function hideSplashScreen() {
+    splashScreen.style.opacity = '2';
+    setTimeout(() => splashScreen.remove(), 5000);
+};
+
+async function loadScript(url, label) {
+    return fetch(url)
+        .then(response => response.text())
+        .then(script => {
+            loadedPlugins.push(label);
+            eval(script);
+        });
+}
+
+async function loadCss(url) {
+    return new Promise((resolve) => {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = url;
+        link.onload = () => resolve();
+        document.head.appendChild(link);
+    });
+}
 
 /* Visual Functions */
 function setupMenu() {
